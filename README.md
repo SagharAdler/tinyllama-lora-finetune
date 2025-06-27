@@ -1,7 +1,7 @@
 
 # tinyllama-lora-finetune
 
-This project fine-tunes the [TinyLlama-1.1B](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) model using [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) on the [Databricks Dolly 15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k) instruction dataset. It compares the performance of the base and fine-tuned models using standard NLP evaluation metrics such as BLEU, ROUGE-L, and BERTScore across a range of task categories.
+This project fine-tunes the [TinyLlama-1.1B](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) model using [LoRA (Low-Rank Adaptation)](https://arxiv.org/abs/2106.09685) on the [Databricks Dolly 15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k) instruction dataset. It leverages the Hugging Face Transformers and Datasets libraries for model loading, tokenization, and dataset preprocessing. It compares the performance of the base and fine-tuned models using standard NLP evaluation metrics such as BLEU, ROUGE-L, and BERTScore across a range of task categories.
 
 ## Features
 
@@ -15,8 +15,8 @@ This project fine-tunes the [TinyLlama-1.1B](https://huggingface.co/TinyLlama/Ti
 ## Training Environment
 
 - Hardware accelerator: NVIDIA A100 PCIe GPU
-- Frameworks used: PyTorch
 - Model & dataset loading: Hugging Face Transformers and Datasets libraries
+- Frameworks used: PyTorch
 
 ## Dataset
 
